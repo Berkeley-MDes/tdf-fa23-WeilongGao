@@ -10,7 +10,7 @@ Of course, the process wasn't entirely smooth. I made several mistakes while usi
 
 So it’s like this…
 
-![image1](images/IMG_0623.heic)
+![image1](images/WechatIMG161.jpg)
 
 ### Final work
 
