@@ -10,10 +10,10 @@ Of course, the process wasn't entirely smooth. I made several mistakes while usi
 
 So it’s like this…
 
-![IMG_1984.HEIC](images/IMG_1984.heic)
+![IMG_1984.HEIC](/images/IMG_1984.heic)
 
 ### Final work
 
 While I encountered some challenges, the final product turned out quite well and fits my phone perfectly. My most notable experience was in the laser cutter room. I wasn't very familiar with everything there, but my peers were immensely helpful. They guided me through the process of using the software and editing the AI file. I'm truly grateful for their assistance.
 
-![IMG_0623.HEIC](images/IMG_0623.heic)
+![IMG_0623.HEIC](/images/IMG_0623.heic)
