@@ -1,3 +1,58 @@
+# Report 2: Week of 09/06/2023
+
+## Use grasshopper to design my personal phone stand
+
+### Scenario and Pain points
+
+For me, the most frequent occasion to use a phone stand is when I'm having meals and need to watch videos. However, the current phone stand doesn't meet all of my needs, such as the viewing angle and obstructions in front of the screen. Therefore, I have summarized 4 points that need improvement.
+
+1. No obstructions.
+2. Titled more to fit the viewing angle.
+3. The center of gravity should be more stable.
+4. Easier to put the phone on 
+
+![123123.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/123123.png)
+
+### Phone stand design
+
+Based on the improvement points, I design the new phone stand which is not that fancy but meet my demands.
+
+![12421414.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/12421414.png)
+
+### Model with grasshopper
+
+I have never used visual coding tools like Grasshopper before, so it took me a while to figure out what the panels meant. However, I soon discovered that it is not that different from programming in Unity. All I needed to do was find the parameter and figure out which part of the model it controls, and then I could adjust the model as desired.
+
+First, I adjust the prism parameter to cut off the top of the stand, which is blocking my view. Then, I change the base width to make the center of gravity more stable. 
+
+![image 16.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_16.png)
+
+![image 15.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_15.png)
+
+With this step, the phone stand looks like this.
+
+![image 14.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_14.png)
+
+The next step is to adjust the viewing angle to make it more ergonomic for me.
+
+![image 12.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_12.png)
+
+The final product is like this. I think it's pretty good - simple but solves all my problems.
+
+![image 11.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_11.png)
+
+![image 10.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_10.png)
+
+### Summarize
+
+My first experience with visual programming tools was pretty good. I didn't need much time to adapt to this different way of programming. It's more intuitive than writing code directly. However, I believe that when the project becomes bigger and more complex, it can be challenging to manage the entire project.
+
+It would be quite interesting to consider how to improve visual programming tools, or whether they are only suitable for small projects. I will search for more information on this topic.
+
+### Reflection
+
+I believe that parametric design is a useful means to explore different possibilities in personality design. However, even with this method, it is still difficult to meet everyone's demands in the way we imagine true personality design. In my opinion, the only way to implement true personality design and provide everyone with the most appropriate product is to combine it with AI. Users really need to simply click a button and receive their ideal product. I am eager to explore this realm further.
+
 # Report 1: Week of 08/29/2023
 
 ## First attempt to create a physical prototype.
