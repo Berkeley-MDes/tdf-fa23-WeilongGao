@@ -11,13 +11,13 @@ For me, the most frequent occasion to use a phone stand is when I'm having meals
 3. The center of gravity should be more stable.
 4. Easier to put the phone on 
 
-![123123.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/123123.png)
+![123123.png](images/week2 01.jpg)
 
 ### Phone stand design
 
 Based on the improvement points, I design the new phone stand which is not that fancy but meet my demands.
 
-![12421414.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/12421414.png)
+![12421414.png](week2 02.png)
 
 ### Model with grasshopper
 
