@@ -17,7 +17,7 @@ For me, the most frequent occasion to use a phone stand is when I'm having meals
 
 Based on the improvement points, I design the new phone stand which is not that fancy but meet my demands.
 
-![12421414.png](week2 02.png)
+![12421414.png](images/week2-02.png)
 
 ### Model with grasshopper
 
@@ -25,23 +25,23 @@ I have never used visual coding tools like Grasshopper before, so it took me a w
 
 First, I adjust the prism parameter to cut off the top of the stand, which is blocking my view. Then, I change the base width to make the center of gravity more stable. 
 
-![image 16.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_16.png)
+![image 16.png](images/week2-03.png)
 
-![image 15.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_15.png)
+![image 15.png](images/week2-04.png)
 
 With this step, the phone stand looks like this.
 
-![image 14.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_14.png)
+![image 14.png](images/week2-05.png)
 
 The next step is to adjust the viewing angle to make it more ergonomic for me.
 
-![image 12.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_12.png)
+![image 12.png](images/week2-06.png)
 
 The final product is like this. I think it's pretty good - simple but solves all my problems.
 
-![image 11.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_11.png)
+![image 11.png](images/week2-07.png)
 
-![image 10.png](Report%202%20Week%20of%2009%2006%202023%20c817d957817d457ab9758b68f17c2e21/image_10.png)
+![image 10.png](images/week2-08.png)
 
 ### Summarize
 
