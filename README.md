@@ -49,7 +49,7 @@ My first experience with visual programming tools was pretty good. I didn't need
 
 It would be quite interesting to consider how to improve visual programming tools, or whether they are only suitable for small projects. I will search for more information on this topic.
 
-### Reflection
+## Reflection
 
 I believe that parametric design is a useful means to explore different possibilities in personality design. However, even with this method, it is still difficult to meet everyone's demands in the way we imagine true personality design. In my opinion, the only way to implement true personality design and provide everyone with the most appropriate product is to combine it with AI. Users really need to simply click a button and receive their ideal product. I am eager to explore this realm further.
 
