@@ -4,7 +4,7 @@
 
 The most common scenario in which I use a phone stand is when I want to watch videos while eating. In the past, I had to hold the phone in my hand, which was really inconvenient. So I decided to design a phone stand for this purpose.
 
-![IMG_0629.PNG](week3_1.png)
+![IMG_0629.PNG](images/week3_1.png)
 
 I have several requirements for this phone stand. First, it should match the height at which I sit, based on ergonomic design. 
 
@@ -14,31 +14,31 @@ I have several requirements for this phone stand. First, it should match the hei
 
 So, I measured the dimensions of the table, chair, and my sitting height. 
 
-![IMG_0631.PNG](week3_2.png)
+![IMG_0631.PNG](images/week3_2.png)
 
 I first mocked up a basic scene in Blender to adjust the size and angle of the phone stand. This way, I ensured it met ergonomic standards. 
 
-![Group 52.png](week3_3.png)
+![Group 52.png](images/week3_3.png)
 
-![Untitled](week3_4.png)
+![Untitled](images/week3_4.png)
 
 ## Design in Grasshopper
 
 Then I used Grasshopper and Rhino to design my phone stand. I created an array containing a 3x3 matrix and placed a cube at each coordinate of the matrix.
 
-![Untitled](week3_5.png)
+![Untitled](images/week3_5.png)
 
  I then modified some cubes in the matrix, reducing the distances between them, to give it a more compelling geometric design.
 
-![Untitled](week3_6.png)
+![Untitled](images/week3_6.png)
 
-![Untitled](week3_7.png)
+![Untitled](images/week3_7.png)
 
-![Untitled](week3_8.png)
+![Untitled](images/week3_8.png)
 
 Now, it works perfectly and I find it incredibly useful for watching videos while I eat.
 
-![IMG_0627.HEIC](week3_9.png)
+![IMG_0627.HEIC](images/week3_9.jpg)
 # Report 2: Week of 09/06/2023
 
 ## Use grasshopper to design my personal phone stand
