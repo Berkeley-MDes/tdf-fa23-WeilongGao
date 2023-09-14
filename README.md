@@ -39,6 +39,8 @@ Then I used Grasshopper and Rhino to design my phone stand. I created an array c
 Now, it works perfectly and I find it incredibly useful for watching videos while I eat.
 
 ![IMG_0627.HEIC](images/week3_9.jpg)
+
+![IMG_0637.HEIC](images/week3_10.jpg)
 # Report 2: Week of 09/06/2023
 
 ## Use grasshopper to design my personal phone stand
