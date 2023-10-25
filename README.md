@@ -1,3 +1,15 @@
+# **Report 5: Week of 09/27/2023**
+
+## IDEATION
+
+I chose the Clean Tech topic, and I have some preliminary ideas about it. I hope to design a desk-top equivalent of a robotic vacuum cleaner. In this way, this small robot can automatically clean the table surface.
+
+## How to use IoT?
+
+In my vision, the home is an excellent setting for utilizing WI-FI communication, which aligns perfectly with IoT. Therefore, I believe this robot can be divided into two parts: one is the robotic part that sweeps, and the other is the camera part responsible for detection. After the camera part detects, it sends the data to the mobile robot. This forms the entire clean tech system.
+
+![IMG_2642](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/d30be9a8-6d39-44bc-897a-d827dcf73e08)
+
 # Report 4: Week of 09/21/2023
 
 I previously only had experience with Arduino, but the photon I need to use this time is an IoT device. Therefore, I need to start from scratch to learn how to use the Photon in a WIFI environment and let them communicate with each other.
