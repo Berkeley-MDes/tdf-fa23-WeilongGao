@@ -1,3 +1,28 @@
+# Report 4: Week of 09/21/2023
+
+I previously only had experience with Arduino, but the photon I need to use this time is an IoT device. Therefore, I need to start from scratch to learn how to use the Photon in a WIFI environment and let them communicate with each other.
+
+## Connection Photon to WIFI
+
+I first registered my own account on Particle.
+
+![Untitled](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/79819614-251c-4ad6-bfb7-667a887b03dc)
+
+
+I followed the tutorial on GitHub and wrote the corresponding code, and obtained the corresponding MAC address. P.S.: I later asked the teacher why the MAC address is needed. It turns out that Berkley's Wi-Fi needs to protect its own network system, so every connecting device needs to be registered.
+
+![Untitled 1](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/5fe598e4-76af-4754-acbe-84531bc01d4a)
+
+Registering on Berkeley's website.
+
+![Untitled 2](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/716a5b41-b6dc-4b68-816c-dfbf2188bf20)
+
+
+Successfully connected to WI-FI and conducted simple communication.
+
+![Untitled 3](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/a53d7a4d-b985-4240-9dff-ba6db720f850)
+
+
 # Report 3: Week of 09/13/2023
 
 ## Use Scenario
