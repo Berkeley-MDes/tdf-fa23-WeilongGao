@@ -1,3 +1,42 @@
+# **Report 9: Week of 10/25/2023**
+
+## ****Outlook for the Third Project****
+
+In my past projects, I've experimented with the open-source library "Stable Diffusion" and showcased it at some new media exhibitions. This time, I hope to go a step further, learning how to engage with AI models at a more foundational level, such as training.
+
+# **Report 8: Week of 10/18/2023**
+
+## ****Project Summary****
+
+With our excellent collaboration, we successfully completed this project. I am very grateful to my teammates; our cooperation was very smooth.
+![Untitled 6](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/2541cfc4-1dc4-4f6b-8888-8c4fed427a45)
+
+
+## ****Final Product****
+
+![Untitled 7](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/56feb84c-d687-4bb8-b303-cade5390d88f)
+![Untitled 8](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/edf54fad-37a7-4a66-b53d-c2f54da316c1)
+![Untitled 9](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/e0802770-43ab-4748-aeec-8239e1b0c26e)
+![Untitled 10](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/a2f53664-14c2-4bf0-999c-e609d4ae2eca)
+
+
+## ****Code Presentation****
+
+Since I have a certain foundation in programming, I was mainly responsible for the circuit and code parts. I have to admit that even with a foundation, I still encountered many, many problems. But fortunately, everyone in the project was very helpful. I consulted many classmates, teaching assistants, and teachers. In the end, I resolved each of these issues one by one.
+![Untitled 11](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/5a124fd6-9823-4a4e-9d27-d2a35ad2b0a1)
+
+![Untitled 12](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/7c5a42f8-15a8-4c0f-b05a-04e373cea93a)
+
+## **Potential Intersection with AI Technology**
+
+The integration of AI, into safety vests has the potential to revolutionize their capabilities and advance safety technology. By harnessing AI the vest can go beyond reacting to incidents. Become proactive. Through real time analysis of data the system can identify potential issues before they become critical by comparing the divers vital signs with a vast dataset of diving biometrics. This allows for detection of patterns that may indicate a blackout.
+
+Furthermore as the AI gains experience with each dive it becomes familiar with the wearers patterns. This continuous learning enables the system to adjust its sensitivity based on individuals responses. As a result it optimizes its ability to detect emergencies while minimizing alarms. The effectiveness of AI is greatly enhanced when combined with sensors that gather information such as depth, external pressure and ambient temperature. By assimilating data from sources the AI can provide an evaluation of a diver’s condition.
+
+In situations where swift intervention's vital AI can autonomously send distress signals to nearby divers, boats or rescue teams in real time. These signals would include information, like duration, vital statistics and precise location—facilitating rapid and well informed rescue efforts.
+
+After completing a dive the role of AI doesn't end. The vest has the ability to examine and interpret the information providing a comprehensive summary of the dive. This analysis can highlight moments when the diver experienced stress or tiredness offering advice, for dives. Essentially by incorporating AI technology the vest not serves as a protector during the dive. Also acts as a valuable mentor, after the dive enhancing the overall diving experience.
+
 # **Report 7: Week of 10/11/2023**
 
 ## ****Sensor Testing****
