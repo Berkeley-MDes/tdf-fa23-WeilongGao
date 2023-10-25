@@ -1,3 +1,24 @@
+# **Report 6: Week of 10/04/2023**
+
+## An new idea
+
+This week, we were informed that we needed to split the previous six-member team into two teams, so I reselected three teammates. After further assessment, we re-evaluated the workload of the cleaning robot, so we decided to make some adjustments to our direction.
+
+This time, we narrowed our focus to rescue in free diving. Because free diving is one of the most dangerous sports in the world. The leading cause of accidents in free diving is blackout, where divers lose consciousness under pressure. Therefore, we believe this is a very innovative field, and we have shifted our attention to this topic.
+![Untitled](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/f04cd7be-7550-46dd-827a-be1b4a8dbcf9)
+
+
+## How to detect?
+
+After extensive research, we found that to detect such blackouts, we can mainly rely on two methods: one is heart rate and the other is blood oxygen level. Therefore, we purchased sensors related to these two aspects and are preparing to conduct tests.
+
+![Untitled 1](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/b5696775-e303-4dbc-8f6d-7da1bc965d6b)
+
+
+![Untitled 2](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/2fc5aecb-2d22-4ff6-9c0f-19a5adb83e20)
+
+
+
 # **Report 5: Week of 09/27/2023**
 
 ## IDEATION
