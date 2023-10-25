@@ -1,3 +1,144 @@
+# **Report 7: Week of 10/11/2023**
+
+## ****Sensor Testing****
+
+After comparing accuracy, I decided to use the heart rate monitor.
+![Untitled 3](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/f6f97d65-ee4f-4aeb-b7c8-47d8575fe8a6)
+
+
+So, I needed some code to test the sensor. Fortunately, this sensor has a <PulseSensorPlayground.h> library, which allows me to directly access data. However, unfortunately, this library was written for the Arduino platform, so I encountered many problems when using it on the photon2.
+
+I studied the library for a long time to understand how it was written. I made some modifications to the library before I could use it on the photon.
+
+```jsx
+#define USE_ARDUINO_INTERRUPTS false
+#include <PulseSensorPlayground.h>
+
+const int OUTPUT_TYPE = SERIAL_PLOTTER;
+
+const int PULSE_INPUT = A0;
+const int PULSE_BLINK = LED_BUILTIN;
+const int PULSE_FADE = 5;
+const int THRESHOLD = 550; // Adjust this number to avoid noise when idle
+
+byte samplesUntilReport;
+const byte SAMPLES_PER_SERIAL_SAMPLE = 10;
+
+unsigned long currentMillis = 0; // 每0.1s
+unsigned long previousMillis = 0;
+const long interval = 500; // 0.1s
+
+PulseSensorPlayground pulseSensor;
+
+void setup()
+{
+  Serial.begin(115200);
+
+  // Configure the PulseSensor manager.
+  pulseSensor.analogInput(PULSE_INPUT);
+  pulseSensor.blinkOnPulse(PULSE_BLINK);
+  pulseSensor.fadeOnPulse(PULSE_FADE);
+
+  pulseSensor.setSerial(Serial);
+  pulseSensor.setOutputType(OUTPUT_TYPE);
+  pulseSensor.setThreshold(THRESHOLD);
+
+  // Skip the first SAMPLES_PER_SERIAL_SAMPLE in the loop().
+  samplesUntilReport = SAMPLES_PER_SERIAL_SAMPLE;
+
+  // Now that everything is ready, start reading the PulseSensor signal.
+  if (!pulseSensor.begin())
+  {
+    /*
+       PulseSensor initialization failed,
+       likely because our Arduino platform interrupts
+       aren't supported yet.
+
+       If your Sketch hangs here, try changing USE_PS_INTERRUPT to false.
+    */
+    for (;;)
+    {
+      // Flash the led to show things didn't work.
+      digitalWrite(PULSE_BLINK, LOW);
+      delay(50);
+      Serial.println('!');
+      digitalWrite(PULSE_BLINK, HIGH);
+      delay(50);
+    }
+  }
+}
+
+void loop()
+{
+
+  /*
+     See if a sample is ready from the PulseSensor.
+
+     If USE_INTERRUPTS is true, the PulseSensor Playground
+     will automatically read and process samples from
+     the PulseSensor.
+
+     If USE_INTERRUPTS is false, this call to sawNewSample()
+     will, if enough time has passed, read and process a
+     sample (analog voltage) from the PulseSensor.
+  */
+  if (pulseSensor.sawNewSample())
+  {
+    /*
+       Every so often, send the latest Sample.
+       We don't print every sample, because our baud rate
+       won't support that much I/O.
+    */
+    if (--samplesUntilReport == (byte)0)
+    {
+      samplesUntilReport = SAMPLES_PER_SERIAL_SAMPLE;
+
+      currentMillis = millis();                       // 从Arduino板启动或重置开始到当前为止的毫秒数
+      if (currentMillis - previousMillis >= interval) // 如果超过0.1s
+      {
+        previousMillis = currentMillis;
+        // pulseSensor.outputSample();
+        int pulse = pulseSensor.getBeatsPerMinute();
+        Serial.println(pulse);
+        Particle.publish("pulse:", String(pulse));
+      }
+
+      /*
+         At about the beginning of every heartbeat,
+         report the heart rate and inter-beat-interval.
+      */
+      if (pulseSensor.sawStartOfBeat())
+      {
+        // pulseSensor.outputBeat();
+      }
+    }
+    // delay(20); // considered best practice in a simple sketch.
+  }
+
+  /******
+     Don't add code here, because it could slow the sampling
+     from the PulseSensor.
+  ******/
+}
+```
+![Untitled 4](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/41b99d46-fe7c-4d8f-8158-f14bd73a1eb7)
+
+
+## ****Taking on the Responsibility of Code and Circuitry****
+
+In the division of labor within our team, I am solely responsible for the code and circuitry part. Thus, I have to shoulder the responsibility of connecting the circuits and writing the code. For this, I chose to first test with the more familiar Arduino to ensure the smoothness of the code logic. After that, I can transfer the code to the photon platform.
+![Untitled 5](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/f90c23ce-83e4-48b4-b980-373c15d1cbc1)
+
+
+
+https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/80c18892-3f5f-45f5-8c0d-4c65f22a10fc
+
+
+
+## ****Connecting Two Photon2****
+
+Initially, I encountered many difficulties when trying to connect the two photon2 devices for communication, so I consulted TJ, but unfortunately, I was not successful. Therefore, I sought help from the teaching assistant, shm. She told me that I should use the particle's own platform for communication. Fortunately, this time the photon2 connected quickly and could communicate.
+
 # **Report 6: Week of 10/04/2023**
 
 ## An new idea
