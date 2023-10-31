@@ -1,4 +1,4 @@
-### **Report 8: Week of 10/18/2023**
+# Report 8: Week of 10/18/2023
 
 ### In this writing, reflect thoughtfully on your teams performance since the week. Was there anything that surprised you? Are you grateful for assistance from a classmate or teammate? Is there anything that you can contribute that would improve the experience? Use full sentences.
 
@@ -8,7 +8,7 @@ This week, all the teammates are working together on the final project. I really
 
 I think I completed my section of the project very well. I finished the circuit and code by myself and overcame many difficulties. I’m satisfied with the final result. Beyond that, I'm proud that when I encountered problems I could not solve on my own, I discussed them with my teammates to find a suitable solution
 
-### **Report 7: Week of 10/11/2023**
+# Report 7: Week of 10/11/2023
 
 ### In this writing, reflect thoughtfully on your teams performance since the week. Was there anything that surprised you? Are you grateful for assistance from a classmate or teammate? Is there anything that you can contribute that would improve the experience? Use full sentences.
 
