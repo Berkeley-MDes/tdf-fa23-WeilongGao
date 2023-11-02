@@ -27,7 +27,7 @@ Since I have a certain foundation in programming, I was mainly responsible for t
 
 ![Untitled 12](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/7c5a42f8-15a8-4c0f-b05a-04e373cea93a)
 
-## **Potential Intersection with AI Technology**
+## Potential intersection of digital ecosystems and AI technologies
 
 The integration of AI, into safety vests has the potential to revolutionize their capabilities and advance safety technology. By harnessing AI the vest can go beyond reacting to incidents. Become proactive. Through real time analysis of data the system can identify potential issues before they become critical by comparing the divers vital signs with a vast dataset of diving biometrics. This allows for detection of patterns that may indicate a blackout.
 
