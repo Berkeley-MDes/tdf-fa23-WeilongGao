@@ -1,3 +1,169 @@
+# **Report 16- Week of 12/14/2023**
+
+For this term, I think I’ve learned a lot about the technology and have a lot of experience about developing a interactive project. I think maybe in next term, I want to explore more about the design. I love this course.
+
+# **Report 15- Week of 12/07/2023**
+
+## Final Project - Chameleon Assistant
+
+Chameleon Assistant is a physical table assistant which has an adaptable character traits based on LLM. It could interact with users through voice and assist users to arrange their work.
+
+## Challenges
+
+1. Using OpenAI’s latest API to develop an assistant of engaging in real time dialogues like speech to text API, assistant API, etc.
+    
+    We implement some functions like recognize selected words(timer, remind, minute...) to help users to set a timer, press button to record the voice file, send and receive message from openAI, etc…
+    <img width="971" alt="Untitled" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/9b4eb984-e17f-47c3-bddd-87c399a89901">
+
+    
+2. **We tried to overcome the problem that our Chameleon assistant, which based on chatGPT, cannot proactively remind users about events.**
+    
+    To overcome this limitation we started exploring ways to prompt GPT to generate reminders. During our experiments we discovered that by adding the word "reminder" before a message and using sentences like "Reminder: Check if it's time to notify the user that their timer has ended. " we could achieve the desired effect.
+    ![Group_58](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/25c7aeb2-7d5a-485f-b659-62bb195933a4)
+
+    ![Group_57](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/cfa6f570-cda7-4684-ba86-03c4b63f5d5f)
+
+    
+3. **Physical Model：We try to achieve motion while minimizing structures.**
+    
+    In the Physical Model stage, we tried to simulate a more vivid effect with a minimum number of motors. So we designed the current physical model, we use two directions of motors, head and torso, and use this as the basis for robot motion design.
+    <img width="843" alt="Group_72" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/cb705bfa-8d03-4ac5-b06f-de8e977b4d66">
+
+    
+4. **Connecting Photon and Python**
+    
+    We have also designed three motion modes aligned with the states in the Python state machine, "Listening", "Speaking", and "Standing By" mode. Then we utilized particle events to establish a connection from Python to Photon.
+    <img width="847" alt="image_64" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/f90193ea-6b65-4bb8-aba5-364b3a9e78ff">
+<img width="748" alt="Group_74" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/4424a393-a0ed-41a7-96b2-cd003c1f570a">
+    <img width="749" alt="Group_75" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/3ce99643-8d16-4e93-aa84-88a377602b47">
+
+
+## Display
+![IMG_4573_1](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/4614d758-abea-4ff2-91ef-20fb7b7dc654)
+![image_70](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/25d90bda-96df-4963-b8e7-ec2dd0c025b3)
+![image_66](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/e4d97593-079d-4c07-891c-451dd25384e6)
+
+
+
+
+## Speculations
+
+### How the technologies you explored will impact the design of human experiences
+
+The unexpected speed of AI development makes the "digital bespoke era" possible. We believe, in the near future, everything, such as mobile APPs, Smart furniture, will all become bespoke for each individual. That’s the reason we explore chameleon assistant, it represents not only the intelligence of the machine, but also the understanding of the user, it can be adapted to our needs and customized for each individual.
+
+### How the technologies you explored will impact engineering and how we build.
+
+Regarding engineering, it does show the hint that a table robot can unconsciously enhance people's sense of time management and boost work efficiency. We think the movement of our table robot can also be fully customized, depending on the user's mood.
+
+## Conclusion
+
+In conclusion, we have explored how to use ChatGPT to help us to program, and how to connect LLM with a physical model through a microcontroller. We believe this will greatly promote our future works.
+
+# **Report 14- Week of 11/30/2023**
+
+Based on our project, a Table Assistant which has adaptable character, I draw a status diagram. I need to combine the user's behavior with the robot's behavior.
+![image_65](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/8be7759d-2f16-4212-a931-6dc00cc26b3c)
+
+
+Further to this, I explored OpenAI's Speech to text API and text to speech API, I add the two APIs into my project function. I wrote most of the code in python, but haven't connected the python program to photon yet.
+![image_56](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/7189dccb-8069-4a32-b638-fe16a29ecd18)
+
+![image_57](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/e6ea6f7c-2521-409a-b994-5aec2844f7ee)
+
+
+# **Report 13- Week of 11/23/2023**
+
+ After watching the showcase of OpenAI, I and my teammate Yang decided to use the latest OpenAI API and feature. So I start to try how to use the new Assistant Feature and API.
+
+<img width="838" alt="Untitled 1" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/d9d7fcbe-9f13-4535-9aca-a7ac94906f64">
+
+- New OpenAI API
+
+<img width="489" alt="Untitled 2" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/96ab0e61-88bd-488c-be14-84b74701e1c6">
+
+- Assistant API
+
+# **Report 12- Week of 11/16/2023**
+
+## Project 4 Summary
+
+In the recent past, my time management has become extremely chaotic. Every time I plan to do something, I set an alarm, but when it goes off, I just turn it off and continue with what I was doing. This has made the alarm's reminder function very limited for me. Therefore, I want to create an AI reminder assistant through ChatGPT and then build a desktop display using circuitry. This would be a better way to remind me of what I need to do.
+
+## RESEARCH PLAN
+
+Explore and research the latest features of ChatGPT, study the ChatGPT API, and explore how to perform visualization.
+
+## CURRENT WORK
+
+After some initial exploration with ZeroWidth, I have learned about some of the latest features of ChatGPT. Next, I will think about how to connect these different parts together
+
+## MOTIVATION
+
+I want to learn how to use the ChatGPT API and integrate ChatGPT with Avatar. This involves a series of API integrations, which I believe are essential for the future development of Avatars in the virtual world.
+
+# **Report 11- Week of 11/09/2023**
+
+## LLM Final result
+
+I create a assistant to help others learn more about me. It could answer some basic information about me which include my resume, my previous portfolio projects and myTDF projects.
+
+And I try to solve the problem of token limitation and updatable data during the project experiment.
+
+## Question
+
+1. Who is Wailing Gao
+    ![image_46](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/30f5cebc-dbca-4619-91f4-3e76bd2fc799)
+
+    
+2. Can you mention a challenge faced in one of the TDF projects and how it was overcome?
+    ![image_47](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/5757fa9b-d3ad-446f-b720-fa6857ae4165)
+
+    
+3. Based on Weilong Gao’s TDF work, what are Weilong Gao’s speculations about potential intersection of digital ecosystems and AI technologies?
+    
+    ![image_48](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/9494e687-323c-4d69-9a15-188247d54590)
+
+4. Which project in Weilong Gao’s portfolio best demonstrates technology design skills?
+    ![image_49](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/9e325518-a417-428d-a4cc-001297c652b3)
+
+    
+## Experiments
+
+At first, I put all the data into the instruction, but soon I realized two problems.
+
+**First:** The TDF's GitHub report is too long, and it's likely to exceed 8000 tokens in the future.
+
+**Second:** The data in GitHub will keep growing. If I put it into the instruction, it won't be updatable in the future.
+
+Therefore, I created a new 'information' section for the TDF project parts, and kept the information more related to me personally in the instruction.
+![Group_2868](https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/2befb884-9351-4b10-9098-55f3ae781e50)
+
+<img width="770" alt="image_51" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/e3fab63b-57f5-4a56-a7f0-80432c08f8a5">
+
+## How this technology will impact the design of human experiences?
+
+In my past design experiences, I've interacted a lot with the elderly user group. I found that for them, the most challenging aspect of interaction design is they are really difficult to understand non-natural interaction methods. For instance, if we design the 'back' function as a button, they have trouble connecting the logic between the button and the 'back' action.
+
+## How this technology will impact engineering and how we build?
+
+LLM can redesign almost every product to interact directly and naturally with users. At some point in the future, all apps might merge into ChatGPT, and users would only need to make requests to ChatGPT for all their needs. At this stage, I believe we should integrate LLM into many of the existing products and leverage its powerful capabilities to enhance interaction and productivity.
+
+# **Report 10- Week of 11/02/2023**
+
+## LLM
+
+This week we explored LLM, and for the first time I learned how to fine-tune ChatGpt based on LLM to make ChatGpt more relevant to my own project's needs. I learned that it is possible to write instruction to ChatGpt using a tool like zerowidth.
+<img width="1337" alt="Untitled 3" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/416c98cc-d684-4dac-82ae-f218d9724c84">
+
+
+## Coding Exploring
+
+Knowing that modifications can be made to Chatgpt, I wanted to know exactly how to achieve this effect, especially using only ChatGPT's third-party software.
+In the class, I learned that the original principle from the coding is to add the part of the instruction as a content to the top of each message.But my question is, if this is the case, the stability of ChatGPT is not guaranteed. I will do more research on this later.
+<img width="651" alt="Untitled 4" src="https://github.com/Berkeley-MDes/tdf-fa23-WeilongGao/assets/48149933/f79ee184-6c82-4d4f-ad8e-7e2559299e20">
+
+
 # **Report 9: Week of 10/25/2023**
 
 ## ****Outlook for the Third Project****
